@@ -1,8 +1,6 @@
 function [f,g] = grad_gramm_net_loss(y,net,x_gram,y_sz,use_gpu,x_mean)
 % The core code for neural synthesis
-% Calculates discrepancy in the gram matrices of a VGG net 
-% at each layer for the objective fn. in LBFGS optimization
-
+% Calculates discrepancy in 
 y = single(reshape(y,y_sz));
 if use_gpu
     y = gpuArray(y);
