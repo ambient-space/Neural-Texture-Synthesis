@@ -1,5 +1,5 @@
 
-
+%
 run ../matconvnet-1.0-beta20/matlab/vl_setupnn ;
 
 % Add path to MatConvNet, texture images and minFunc
